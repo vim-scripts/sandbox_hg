@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3942
+
+After installing this plugin, ':Sandhg <hg working copy>' on the command line will create a new buffer 
+which list the currnet status of the sandbox. In the buffer, a few handy mapping are available like diffing, commit, revert, etc. See the help at  the bottom of the buffer. 
+
+Screenshot: 
+http://files.myopera.com/wzhliang/albums/649613/sandbox.png 
+
+Linux only! 
+
+Depends on: hg, diffuse, or meld for GUI diffing. tortoisehg for other GUI stuff
+ 
+---------- H E L P ----------- 
+c         Commit a single file or selected files. 
+d         Diff the file specified in the current line. 
+e         Open the file in question in a new tab. 
+r         Revert a single file or selected files. 
+t         Select/Unselect a single file. 
+C-D     Reset selection. 
+<F5>    Refresh the buffer. 
+q       Quit 
